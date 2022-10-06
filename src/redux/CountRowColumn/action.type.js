@@ -1,0 +1,2 @@
+export const COUNTVISIT = "COUNTVISIT";
+export const COUNTPROCEDURE = "COUNTPROCEDURE";

@@ -1,0 +1,32 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #efacac;
+	border: 1px solid #faf9f9;
+	border-radius: inherit;
+}
+
+.default {
+	color: grey;
+	font-size: 24px;
+}
+
+.warning {
+	color: #ed6c02 !important;
+}
+
+.checker {
+	color: #178b34  !important;
+}
